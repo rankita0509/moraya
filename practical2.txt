@@ -1,0 +1,31 @@
+Adding vector layers:
+Add layer > Add Vector Layer 
+
+Select Vector > Browse Vector Database > IND_adm.zip > Add >
+
+Select IND_adm0.shp > Click Add Layers
+
+Setting properties:
+Right Click on IND adm0.shp layer > Properties > 
+
+Go to Symbology > select color(Outline blue) > Apply >
+
+Formatting and calculating line lengths and statistics:
+Add layer > Add Vector Layer > Browse Vector Database > IND_rrd.zip > Add >
+
+Right click on IND rails.shp layer > Open Attribute Table >
+
+Attribute Table of IND_rails.shp >
+
+At attribute table > Open field Calculator > Set Output field name : Trak_len> Set Output field type : Decimal number > Set expression : $length / 1000 > ok
+
+Select Vector > Analysis Tools > Basic Statistics for fields.. > click
+
+Open Basic Statistics for fields > select Input layer : IND_rails.shp >  Set  Field to calculate statistics on : Trak_len >  Save as and give name in html format > Run
+
+Output of log content > Click Close >
+
+Line lengths and statistics :
+
+
+

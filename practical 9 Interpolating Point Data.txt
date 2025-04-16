@@ -1,0 +1,39 @@
+Interpolating Point Data:
+Layer > Add layer > Add Vector Layer.. >                       
+
+Select “Shapefiles (1).zip” > Add >
+                       
+Select items Arlington_Soundings_2007_stpl83.shp and Boundary2004_550_stpl83.shp > Add Layers >
+
+Select Default Transformation > Ok >
+                               
+Output After adding Vector Layers >
+                   
+Processing > Toolbox >                          
+
+Select TIN interpolation >                                              
+
+Vector layer :Shapefiles (1)-Arlington_Soundings_2007_stpl83.shp > Extend: Calculate from layer > Shapefiles (1)-Arlington_Soundings_2007_stpl83.shp >                      
+
+Output of Interpolation >             
+
+Raster > Extraction > Clip Raster by mask layer >
+                            
+Select Input layer:interpo > Mask layer : Shapefiles (1)-Boundry2004_550_stpl83.shp> Run
+                    
+Output after Extraction >                  
+
+Open properties of Extracted Raster Layer > Render type:Singleband pseudocolor > Mode:Continuous > Apply >                              
+                     
+Output of Extracted Raster Layer After applying symbology >
+              
+Raster > Extraction > Contour.. >                        
+
+Input Layer: Extracted Raster Layer > Interval between contour lines:5.000 > Attribute name:ELEV > Run >                 
+
+Output Contour Extraction >
+              
+Open properties of Contour layer > Select Single Labels > Value: ELEV > Ok
+                         
+Final Output >
+                     

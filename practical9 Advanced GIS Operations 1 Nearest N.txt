@@ -1,0 +1,55 @@
+Advanced GIS Operations 1: Nearest Neighbor Analysis, Sampling Raster Data using Points or Polygons, Interpolating Point Data
+
+Nearest Neighbor Analysis:
+Layer > Add Layer > Add Vector Layer >
+                  
+
+Select “ne_10m_populated_places_simple.zip” >
+                   
+
+Layer > Add Layer > Add Delimited Text Layer > Select “earthquakes (1).csv” > Add >
+                    
+
+Output after adding Vector and delimited text layers >
+     
+
+Vector > Analysis Tools > Distance Matrix >
+                          
+
+Select Input point layer : earthquakes > Input unique ID Field:id > Target point layer:ne_10m_populated_places_simple > Target unique ID field:adm0name > Run >
+                  
+
+Attribute table of Distance matrix layer >
+                      
+
+Open properties of earthquakes > Joins > add Vector join > Join layer:dist_matrix > Join field:InputID > Target field :id > Ok >
+                    
+Join layer dist_matrix > Apply >
+                        
+
+Attribute table of earthquakes >
+   
+
+Open properties of earthquakes > Click Query Builder >
+                    
+Filter expression : “location.name”=’California’ > Test > Ok >
+                         
+Output after applying expression >
+                 
+
+Open properties of ne_10m_populated_places_simple > Click Query Builder >
+                      
+
+Filter expression : “adm0name”=’California’ > Test > Ok >
+                         
+Output after applying expression >
+                
+
+MMQGIS > Create > Hub Lines / Distance >
+                            
+
+Select Hub layer:ne_10m_populated_places_simple ,Hub Name Field:adm0name > Spoke layer : earthquakes > apply >
+                        
+
+Final Output after applying hub lines >
+             

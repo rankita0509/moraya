@@ -1,0 +1,43 @@
+Making a Map, Working with Attributes, Importing Spreadsheets or CSV files Using Plugins, Searching and Downloading OpenStreetMap Data:
+
+
+Making a Map, Working with Attributes:
+Layer > Add Layer > Add Vector Layer >
+
+Select  IND_adm1.shp , maharashtra_administrative.shp , maharashtra_coastline.shp , maharashtra_highway.shp , maharashtra_location.shp , maharashtra_natural.shp , maharashtra_poi.shp , maharashtra_water.shp  files  > Open >
+
+Add All .shp files > Add >
+             
+Output after adding All .shp layers :
+                                    
+Open Properties of IND_adm1 > Change Color > Apply >
+           
+
+Output After changing properties :
+                          
+
+Go to Project > New Print Layout > Give Name > Click Ok >
+
+Add Item > Add Map >
+            
+Map Inserted at Print Layout >
+        
+Add Item > Add Picture >
+          
+Select Picture from Item Properties > Place Picture at Map >
+             
+Add Item > Add Label >
+              
+Add label from Item Properties > Place Label >
+          
+Add Item > Add Legend >   
+
+Place Legend At blank space At map >
+           
+Add Item > Add Scale Bar >
+           
+Place Scale Bar at map >
+          
+Add Item > Add North Arrow >       
+
+Place North Arrow At map >

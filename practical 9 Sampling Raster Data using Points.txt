@@ -1,0 +1,30 @@
+Sampling Raster Data using Points:
+Layer > Add Layer > Add Raster Layer >
+                      
+Select “us.tmax_nohads_ll_20140525_float.tif” file > Add >              
+Output After adding “us.tmax_nohads_ll_20140525_float.tif” >
+      
+Layer > Add Layer > Add Delimited Text Layer >
+                  
+Select “2013_Gaz_ua_national.txt” file > File Format :Custom Delimiters[Tab] > Geometry Definition : Point Coordinates > Add >                                     
+                  
+Output After adding “2013_Gaz_ua_national.txt” >
+           
+Plugins > Manage and Install Plugins >                 
+                   
+Install the “Point sampling tool” > Enable >                    
+                       
+Plugins > Analyses > Point Sampling Tool >                    
+                     
+Select 2013_Gaz_ua_national Layer > Get Values from-2013_Gaz_ua_national:GEOID,2013_Gaz_ua_national:NAME and us.tmax_nohads_ll_20140525_float:Band 1 > Save > Ok >
+      
+Output after applying Point Sampling Tool >  
+
+Open Attribute Table of Layer >
+                              
+Output of Attribute Table >
+                              
+Select “Identify Features” >                             
+
+Final Output After Identifying Features >
+      

@@ -1,0 +1,25 @@
+Importing Spreadsheets or CSV files Using Plugins:
+
+Layer > Add Layer > Add Delimited Text Layer.. >
+           
+
+Select earthquakes.csv at File name  > File Format : CSV >Geometry Definition :  Point coordinates > Add >          
+
+Output Of Earthquakes Map As point coordinates >
+       
+Searching and Downloading OpenStreetMap Data:
+Go to Plugins > Search OSM place search > Install >        
+
+Go to Plugins > QuickOSM > Install >
+                
+Go to Plugins > QuickMapServices > Install >
+               
+Web > QuickMapServices > OSM > OSM Standard > 
+              
+Search Sindhudurg at OSM place search >
+            
+Select Sindhudurg Layer > Create Mask >
+             
+Save Vector Layer  > Ok >            
+
+Select saved Sindhudurg Vector Layer >       

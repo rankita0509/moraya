@@ -1,0 +1,53 @@
+Georeferencing Topo Sheets and Scanned Maps :
+At OSM Place search > Search :”Maharashtra” and select >
+  
+
+At OSM Place search > Select Create mask from slected object option >
+               
+
+Output after Creating mask >
+   
+
+
+
+Raster > Georeferencer.. >
+                  
+
+At Georefrencer > Go to File > Select Open Raster Option >
+                
+
+Select Maharashtra Image from Local Storage > Open >
+               
+
+Output After adding maharashtra image at georefrencer >
+        
+
+At Georefrencer > Go to Edit > Select Add Point Option >
+                       
+
+At Enter Map Coordinates > Select ‘From Map Canvas’ Option >
+       
+
+After selecting points from Map canvas it updated at X and Y > Click Ok >
+       
+
+Georefrencer window after adding points to the map >
+      
+At Georefrencer > Go to Settings > Select Transformation Settings.. Option >
+                 
+
+At Transformation Settings > Transformation type : Thin Plate Spline > At Output raster : Save the .tif file > Check the checkbox of ‘Load in QGIS when done’ > Ok >
+                    
+
+At Georefrencer > Go to File > Select Start Geireferencing  >
+                      
+
+Output After Georeferencing map >
+     
+
+Open properties of Maha_modified Layer > Decrease Transperency > Ok >
+    
+
+Final Output after Setting Properties:
+       
+

@@ -1,0 +1,31 @@
+Working with attributes, terrain Data
+Layer > Add Layer > Add Vector > 
+        
+Select  ne_10m_populated_places_simple.zip file > Add >
+        
+Output After adding ne_10m_populated_places_simple.Zip file :
+
+Select and right click to the ne_10m_populated_places_simple layer > Open Attribute Table >         
+
+Output of Attribute Table >         
+
+Open features using an expression > give expression as : pop_max > 100 and pop_max < 10000 > Click select features >        
+
+Output After applying Expression >
+          
+Open features using an expression > give expression as : adm0name = ‘India’ > Click select features >
+        
+Output After applying Expression >
+       
+Open features using an expression > give expression as : sov0name = ‘United States’ > Click select features >
+        
+Output After applying Expression >
+        
+Open features using an expression > give expression as : sov_a3 = ‘RUS’ > Click select features >
+         
+Output After applying Expression >
+      
+Open features using an expression > give expression as : rank_max < 8 > Click select features >
+          
+Output After applying Expression >
+       

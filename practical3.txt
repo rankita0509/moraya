@@ -1,0 +1,36 @@
+Exploring and Managing Raster data: Adding raster layers, raster styling and analysis, raster mosaicking and clipping
+
+
+
+Adding raster layers:
+Layer > Add Layer > Add Raster Layer >
+
+Select gl_gpwv3_pdens_00_ascii_one zip file > Open >
+
+Click on Add >
+
+Select Items to Add > Select glds00g60.asc Item > Click Add Layers >
+
+Output after adding Raster Layer : gl_gpwv3_pdens_00_ascii_one.zip >
+
+Layer > Add Layer > Add Raster Layer > Select gl_gpwv3_pdens_90_ascii_one zip file > Open >
+
+Click on Add >'
+
+Select Items to Add > Select glds90g60.asc Item > Click Add Layers >
+
+Output after adding Raster Layer : gl_gpwv3_pdens_90_ascii_one.zip >
+
+Raster styling and analysis:
+Open Properties of gl_gpwv3_pdens_00_ascii_one Layer > Select render type as Singleband pseudocolor > Min : 0 and Max : 240 > select light color ramp > Apply  >
+
+Open Properties of gl_gpwv3_pdens_90_ascii_one Layer > Select render type as Singleband pseudocolor > Min : 0 and Max : 240 > select light color ramp > Apply  >
+
+Now Select Raster > Raster Calculator > 
+
+Select gl_gpwv3_pdens_00_ascii_one - gl_gpwv3_pdens_90_ascii_one for Raster Calculator Expression > Browse the location and file name in Output Layer box > Click Ok >
+
+Output after Applying Raster Calculation on two layers >
+
+Change the properties of Output layer > Render Type as Singleband pseudocolor > Min : -2000 and Max : 6000 > Interpolation as Discrete > change color classes as below > Apply >
+

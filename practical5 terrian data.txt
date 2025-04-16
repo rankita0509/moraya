@@ -1,0 +1,35 @@
+Terrain Data
+Layer > add Layer > Add Raster Layer.. >
+           
+Give Source from Pc : "GMTED2010N10E060_300\10n060e_20101117_gmted_dsc300.tif" > Add >
+           
+Raster > Extraction > Clip Raster by Extent >          
+
+At Clipping extent select “Draw on Canvas” Option > Save to File(Permenent) > Run >
+        
+
+Output of Clipped Layer >
+          
+
+Raster > Extraction > Contour.. >
+         
+
+Select Input Layer as Clipped Layer > Interval between contour lines:100.000000 > Save to file > Run >
+            
+
+Output after the Contour >
+         
+Properties > Labels > Value: ELEV > Apply >
+              
+
+Output after adding ELEV Label to Layer >
+       
+
+Open Attribute Table >
+        
+Open Attribute Table > click Highest Value at ELEV column > Click on Search > Output >
+       
+
+
+
+

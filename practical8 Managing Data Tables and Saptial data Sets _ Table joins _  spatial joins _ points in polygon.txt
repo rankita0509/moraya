@@ -1,0 +1,138 @@
+Managing Data Tables and Saptial data Sets: Table joins, spatial joins, points in polygon 
+analysis, performing spatial queries
+
+Table joins:
+Layer > Add Layer > Add Vector Layer >
+          
+Add “tl_2013_06_tract.zip” file >
+        
+Select Default Transoformation > Click Ok >
+                
+Output After Adding vector Layer >
+      
+Layer > Add Layer > Add Delimited Layer >
+            
+ Add “ca_tracts_pop.csv” file > Select CSV file format and no geometry > Click Add >
+             
+
+Right Click to the tl_2013_06_tract Layer > Open Attribute Table > 
+        
+
+Right Click to the ca_tracts_pop Layer > Open Attribute Table >
+              
+
+Go to properties of tl_2013_06_tract Layer >
+                 
+
+Select Mange joins to other layer Option At Properties > Select Join Layer As “ca_tracts_pop” > Join Field as “GEO.id2” > Target Field As GEOID > Click Ok >
+                        
+Now At tl_2013_06_tract layer > Go to Joins > Add The Join layer that Created >
+             
+Open Attribute Table of “tl_2013_06_tract” layer >
+        
+Open Properties of Vector Layer > Select Graduated At Symbology And Select Mode:Equal Interval > Clcik Ok >
+                
+Output After Setting Properties >
+         
+
+        
+**************************************************************
+
+
+
+
+Spatial joins:
+Layer > Add Layer > Add Vector Layer >
+           
+Select nybb_12c(1).zip > Click Add >
+          
+Select Default Transformation > Click Ok >
+                 
+Output After Adding vector Layer >
+         
+Layer > Add Layer > Add Vector Layer > Select “OEM_NursingHomes_001 (1).zip” > Add >
+              
+Output After Adding OEM_NursingHomes_001 (1) Layer >
+            
+Open Attribute Table Of “nybb_12c(1)” layer >
+                      
+Output of Attribute Table >
+            
+Open Attribute Table Of “OEM_NursingHomes_001 (1)” layer >
+                        
+Output of Attribute Table >
+  
+Vector > Data Management Tools > Join Attributes by Location.. >
+           
+Select nybb_12c(1) as Base Layer > OEM_NursingHomes_001 (1) as Join Layer > Run >
+          
+Output Of Join Layer >
+         
+Open Attribute Table of Join Layer >
+                      
+Output of Attribute Table >
+  
+Select Identify Features >
+                         
+Click Any Subject at Layer And see Output at Identify Features tab >
+        
+
+*************************************************************************
+
+
+points in polygon analysis:
+Layer > Add Layer > Add Vector Layer >
+            
+
+Select “ne_10m_admin_0_countries.zip” file > Click add >
+             
+Output After Adding Vector Layer >
+     
+Layer > Add Layer > Add Delimited text Layer.. >
+                
+Select “earthquakes.csv” > Select File format As csv and Geometry Definition As Point Coordinates > Add >
+            
+Output After adding Delimited Text Layer >
+    
+Vector > Analysis Tools > Count Points in Polygon.. >
+              
+Select ne_10m_admin_0_countries At Polygons > earthquakes at Ponits > Class Field : location.name > Count Field Name : Earth_count > Run >
+           
+Output After Adding New Analysis Layer >
+         
+Open Attribute Table of New Analysis Layer >
+                         
+Output Of Attribute Table >
+ 
+Select Identify Features >
+                       
+Click Any Subject at Layer And see Output at Identify Features tab >
+  
+Performing spatial queries:
+Layer > Add Layer > Add Vector Layer >
+            
+Select “ne_10m_populated_places_simple.zip” file > Add >
+                
+Output After Adding “ne_10m_populated_places_simple” vector layer >
+   
+Layer > Add Layer > Add Vector Layer >
+              
+Select “ne_10m_rivers_lake_centerlines.zip” file > Add >
+          
+Output After Adding “ne_10m_rivers_lake_centerlines” vector layer >
+   
+Vector > Geoprocessing Tools > Buffer >
+            
+At Buffer Set Input Layer :ne_10m_rivers_lake_centerlines > Distanace : 0.5000 > Save > Run >
+          
+Output of Buffered Layer >
+    
+Vector > Research Tools > Select by Location.. > 
+                   
+Select Features From : Buffered Layer That recently Created > Check the Intersect Option > By comparing to the features from : ne_10m_populated_places_simple layer > Run >
+            
+Output After Using Research Tools To Layer >
+   
+Final Output After Adding Labels to the Layer >
+
+

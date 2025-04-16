@@ -1,0 +1,28 @@
+Raster mosaicking and clipping:
+Layer > Add Layer > Add Raster Layer 
+
+Select all .2km files > Open > 
+
+Add the Selected layers  > 
+
+Output of added Layers >  
+
+Raster > Miscellaneous > Merge > 
+
+Select All .2km files > Ok >
+
+Scroll down and select browse at Merged > Save to File > Run > 
+
+Output After Merging >
+
+Layer > Add vector layer > Select IND_adm0.shp > Add > 
+
+Open Properties > Change  Color as Outline blue > Apply >
+
+Output After adding IND_adm0 Layer > 
+
+Raster > Extraction > Clip Raster by Mask Layer.. > 
+
+Select Saved Merged Layer > Select Source CRS As WGS 84 > Run >
+
+Final Output After Clip raster by Mask Layer > 

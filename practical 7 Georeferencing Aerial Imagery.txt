@@ -1,0 +1,34 @@
+Georeferencing Aerial Imagery 
+
+Layer > Add Layer > Add Vector Layer >
+            
+At Vector add IND_adm.zip > At Select Items to Add : IND_adm0.shp Polygon(1) > Click Add Layers >
+          
+Output after adding IND_adm0.shp layer >
+          
+Raster > Georeferencer.. >
+                
+At georeferencer > Select File > Open Raster >
+ 
+Select india-physical-blank-map-8282222_1280.webp file from Local Storage > Open >
+            
+Output After adding India image at georefrencer >
+          
+At Georefrencer > Go to Edit > Select Add Point Option >
+                    
+At Enter Map Coordinates > Select ‘From Map Canvas’ Option >
+         
+Georeferencer window after adding points to the map >
+         
+At Georefrencer > Go to Settings > Select Transformation Settings.. Option >
+                  
+At Transformation Settings > Transformation type : Thin Plate Spline > At Output raster : Save the .tif file > Check the checkbox of ‘Load in QGIS when done’ > Ok >
+                         
+At Georeferencer > Go to File > Select Start Geireferencing  >
+                      
+Output After Georeferencing map >
+        
+Open properties of India-physical-blank-map_modified Layer > Decrease Transperency > Ok >
+          
+Final Output after Setting Properties:
+      

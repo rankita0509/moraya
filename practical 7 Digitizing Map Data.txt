@@ -1,0 +1,30 @@
+Digitizing Map Data
+
+Layer > Add Layer > Add Raster Layer >
+           
+At Raster : add “BX24_GeoTifv1-02-clip.tif” >
+          
+Output after adding BX24_GeoTifv1-02-clip.tif raster layer  >
+        
+Layer > create Layer > New SpatiaLite Layer >
+            
+At New SpatiaLite Layer > Set Databse : newdb.sqlite > Layer name : area > Geometry type : Multipolygon > Ok >
+                           
+Select area that to be add at SpatiaLite Layer > Give pkuid : Autogenerate > Click Ok >
+                
+Output after Selecting areas at spatiaLite Layer >
+                  
+At New SpatiaLite Layer > Set Databse : newdb.sqlite > Layer name : road > Geometry type : MultiLine > Ok >
+                             
+Select roads(Lines) that to be add at SpatiaLite Layer > Give pkuid : Autogenerate > Click Ok >
+                 
+Output after Selecting roads at spatiaLite Layer >
+            
+Output of area(Multipolygon) spatiaLite Layer >
+        
+Output of roads(MultiLine) spatiaLite Layer >
+          
+Output of Raster layer and spatiaLite Layer >
+      
+Output of spatiaLite Layers >
+        

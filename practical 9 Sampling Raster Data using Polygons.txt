@@ -1,0 +1,23 @@
+Sampling Raster Data using Polygons:
+Output After adding “us.tmax_nohads_ll_20140525_float.tif” >
+
+Layer > Add Layer > Add Vector Layer >
+                     
+Select “tl_2013_us_county.zip” > Add >
+                     
+Select Default Transformation > Ok >                                    
+
+Output after adding “tl_2013_us_county.shp” layer >      
+                                         
+Processing > Toolbox >
+                              
+Input layer : tl_2013_us_county.shp > Raster layer : us.tmax_nohads_ll_20140525_float > Output column prefix : zs_ > Run                        
+                  
+Open attribute table of zone layer >
+                               
+Attribute table of Zone layer >
+    
+Open Properties > Symbology > Select Graduated > Apply >
+                      
+Output after chnaging symbology >
+                  

@@ -1,0 +1,9 @@
+Hillshade Analysis :
+Raster > Analysis > Hillshade >
+           
+
+Select Input Layer as Clipped layer > Go with default values > Run >
+              
+
+Output Of Hillshade analysis >
+         
